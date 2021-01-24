@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		58390C8925B9491F00AE0F9F /* ProyectoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58390C8825B9491F00AE0F9F /* ProyectoTests.swift */; };
 		58390C9425B9491F00AE0F9F /* ProyectoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58390C9325B9491F00AE0F9F /* ProyectoUITests.swift */; };
 		58390CA525BD2E6D00AE0F9F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58390CA425BD2E6D00AE0F9F /* GoogleService-Info.plist */; };
+		58390CC925BD439E00AE0F9F /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58390CC825BD439E00AE0F9F /* RegisterViewController.swift */; };
 		8FEEC20BF6E898F2FE233397 /* Pods_Proyecto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 662C9E7679F0AB78527E3F2F /* Pods_Proyecto.framework */; };
 		ADC734BC31580CF71872FBF0 /* Pods_Proyecto_ProyectoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4F3501636D666404C6FC6AB /* Pods_Proyecto_ProyectoUITests.framework */; };
 		B9F4B1E45F2EB1B719B675A5 /* Pods_ProyectoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B52F3AF720C4D09E8E80C9 /* Pods_ProyectoTests.framework */; };
@@ -59,6 +60,7 @@
 		58390C9325B9491F00AE0F9F /* ProyectoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProyectoUITests.swift; sourceTree = "<group>"; };
 		58390C9525B9491F00AE0F9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58390CA425BD2E6D00AE0F9F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Users/mac13/Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		58390CC825BD439E00AE0F9F /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		662C9E7679F0AB78527E3F2F /* Pods_Proyecto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Proyecto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		74E0CB50DCEA85F86C13109A /* Pods-Proyecto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Proyecto.debug.xcconfig"; path = "Target Support Files/Pods-Proyecto/Pods-Proyecto.debug.xcconfig"; sourceTree = "<group>"; };
 		93B52F3AF720C4D09E8E80C9 /* Pods_ProyectoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProyectoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -129,6 +131,7 @@
 				58390C7F25B9491E00AE0F9F /* Info.plist */,
 				58390C7725B9491800AE0F9F /* Proyecto.xcdatamodeld */,
 				58390CA425BD2E6D00AE0F9F /* GoogleService-Info.plist */,
+				58390CC825BD439E00AE0F9F /* RegisterViewController.swift */,
 			);
 			path = Proyecto;
 			sourceTree = "<group>";
@@ -161,7 +164,6 @@
 				DD478C0B3AC43AB3B848A6BB /* Pods-ProyectoTests.debug.xcconfig */,
 				C3FBFEBE1DFE00B883A317C3 /* Pods-ProyectoTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -415,6 +417,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58390C7325B9491800AE0F9F /* ViewController.swift in Sources */,
+				58390CC925BD439E00AE0F9F /* RegisterViewController.swift in Sources */,
 				58390C6F25B9491800AE0F9F /* AppDelegate.swift in Sources */,
 				58390C7925B9491800AE0F9F /* Proyecto.xcdatamodeld in Sources */,
 				58390C7125B9491800AE0F9F /* SceneDelegate.swift in Sources */,

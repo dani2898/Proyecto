@@ -115,10 +115,10 @@
             </objects>
             <point key="canvasLocation" x="-484" y="-478"/>
         </scene>
-        <!--View Controller-->
+        <!--Register View Controller-->
         <scene sceneID="DU7-uY-aJa">
             <objects>
-                <viewController id="ldz-0V-qiB" sceneMemberID="viewController">
+                <viewController id="ldz-0V-qiB" customClass="RegisterViewController" customModule="Proyecto" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qJ1-qj-HXY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -151,6 +151,9 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="REGISTRATE"/>
+                                <connections>
+                                    <action selector="registrarBtn:" destination="ldz-0V-qiB" eventType="touchUpInside" id="uVh-qZ-C8J"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="REGISTRATE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V1B-AN-csY">
                                 <rect key="frame" x="147" y="321" width="121" height="24"/>
@@ -191,10 +194,14 @@
                             <constraint firstItem="aKl-2v-gAc" firstAttribute="trailing" secondItem="xvO-r9-tHW" secondAttribute="trailing" constant="107" id="wMh-7o-79C"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="passwordTF" destination="UIy-bX-cZK" id="mnz-u9-Doh"/>
+                        <outlet property="userTF" destination="xvO-r9-tHW" id="4IG-Oq-xbE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cYW-Ud-2oR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-497" y="136"/>
+            <point key="canvasLocation" x="-484" y="184"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
